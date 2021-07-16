@@ -149,11 +149,11 @@ class Marker {
     this.rotate,
     this.rotateOrigin,
     this.rotateAlignment,
-    required this.id,
-    required this.title,
-    required this.adresse,
-    required this.categorie,
-    required this.dateControl,
+    this.id =0,
+    this.title ='',
+    this.adresse ='',
+    this.categorie ='',
+    this.dateControl='',
     AnchorPos? anchorPos,
   }) : anchor = Anchor.forPos(anchorPos, width, height);
 }
