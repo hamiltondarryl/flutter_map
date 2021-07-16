@@ -104,10 +104,15 @@ enum AnchorAlign {
 }
 
 class Marker {
+  final int id; 
   final LatLng point;
   final WidgetBuilder builder;
   final Key? key;
   final double width;
+  final String title;
+  final String adresse;
+  final String categorie;
+  final String dateControl;
   final double height;
   final Anchor anchor;
 
