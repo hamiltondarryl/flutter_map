@@ -646,7 +646,7 @@ abstract class MapGestureMixin extends State<FlutterMap>
     _doubleTapHoldMaxDelay?.cancel();
 
     var flags = options.interactiveFlags;
-    // TODO: is this pinchZoom? never seen this fired
+  
     if (InteractiveFlag.hasFlag(flags, InteractiveFlag.pinchZoom)) {
       final zoom = mapState.zoom;
       final focalOffset = details.localFocalPoint;
